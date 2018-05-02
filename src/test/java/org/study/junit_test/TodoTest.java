@@ -22,7 +22,7 @@ public class TodoTest {
 		TodoService service = new TodoService();
 		Assert.assertTrue(service.login(username, password));
 
-		Assert.assertFalse(service.login("babo", "abc"));
+		Assert.assertFalse(service.login("guiness", "1234"));
 	}
 
 	@Test
